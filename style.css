@@ -1,0 +1,77 @@
+body {
+    font-family: Courier New;
+    background-image: url("webb.png");
+	font-size: 20px;
+	margin: 0 !important;
+}
+
+.wrapper
+{
+	width: 100%;
+}
+
+.header
+{
+	width: 100%;
+}
+
+.logo {
+    text-align: center;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+    background-color: dimgray;
+}
+
+ul.horizontal li a.active {
+    background-color: deepskyblue;
+}
+
+.lina {
+    width: 70%;
+    height: 1px;
+    margin-left: auto;
+	margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+.content
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding: 10px;
+    background-color: whitesmoke;
+}
+
+.footer
+{
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 15px;
+    position: absolute;
+    bottom: 0;
+}
