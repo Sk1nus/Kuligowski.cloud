@@ -1,0 +1,55 @@
+body {
+  background-color: #181818;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 14px 24px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav ul li a:hover {
+  color: gray;
+  transition-duration: 0.2s;
+  transform: scale(1.2);
+}
+
+.logo {
+  padding: 14px 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.photologo {
+  text-align: center;
+}
